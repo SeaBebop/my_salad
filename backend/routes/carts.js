@@ -5,7 +5,6 @@ const {verifyToken, verifyTokenAuth } = require('./verifyToken');
 
 
 router.post('/', verifyToken, async (req, res) => {
-    console.log(req.body)
     const newCart = new Cart(req.body);
 
     try {
@@ -40,9 +39,10 @@ router.delete('/:id', verifyTokenAuth ,async (req, res) => {
     }
 });
 
-router.delete('/find/:userId', verifyTokenAuth ,async (req, res) => {
+router.get('/find/:userId', verifyTokenAuth ,async (req, res) => {
     try {
-        const cart = await Cart.findOne({userId: req.params.id});
+        console.log(req.params.id)
+        const cart = await Cart.findOne({userId: req.params.userId});
         res.status(200).json(cart);
     } catch (err) {
         res.status(500).json(err);

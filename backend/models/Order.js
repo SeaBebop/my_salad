@@ -6,18 +6,20 @@ const orderSchema = new mongoose.Schema({
         required: true,
         unique: true,
     },
-    salads: [{
-        saladId: {
-            type: String,
-            quantity: {
-                type: Number,
-                default: 1,
-            }
-        }
-    }],
-    ammount: {
+    salads: [
+        {
+          saladId: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "Salad",
+          },
+          quantity: {
+            type: Number,
+            default: 1,
+          },
+        },
+      ],
+    total: {
         type: Number,
-        required: true,
     },
     address: {
         type: Object, required: true,
@@ -29,5 +31,18 @@ const orderSchema = new mongoose.Schema({
 },
     { timestamps: true }
 );
+
+orderSchema.pre("save", async function (next) {
+    let total = 0;
+    for (const salad of this.salads) {
+      const saladDoc = await mongoose.model("Salad").findById(salad.saladId);
+      if (saladDoc) {
+        total += saladDoc.price * salad.quantity;
+      }
+    }
+    this.total = total;
+    next();
+  });
+  
 
 module.exports = mongoose.model("Order", orderSchema);

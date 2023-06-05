@@ -7,6 +7,8 @@ const multer = require("multer")
 const userRoute = require("./routes/users")
 const saladRoute = require("./routes/salads")
 const cartRoute = require("./routes/carts")
+const orderRoute = require("./routes/orders")
+
 
 
 
@@ -26,6 +28,8 @@ app.use(cors());
 app.use("/api/users", userRoute);
 app.use("/api/salads", saladRoute);
 app.use("/api/carts", cartRoute);
+app.use("/api/orders", orderRoute);
+
 
 
 
