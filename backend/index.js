@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
+const cors = require("cors")
 const dotenv = require("dotenv");
 const multer = require("multer")
 const userRoute = require("./routes/users")
@@ -20,6 +21,7 @@ mongoose.connect(
     });
 
 app.use(express.json());
+app.use(cors());
 
 app.use("/api/users", userRoute);
 app.use("/api/salads", saladRoute);
