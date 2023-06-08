@@ -18,8 +18,11 @@ Are you prepared to move forward? Create a free Atlas account by clicking the li
 The MERN stack consists of four parts. Let's talk about each of them individually. 
 
 •    MongoDB, a NoSQL database management system, is the first element. 
+
 •    ExpressJS is the second element of the MERN stack. It is a framework for NodeJS-based backend web applications.
+
 •    ReactJS, a JavaScript toolkit for creating UIs based on UI components, is the third component. 
+
 •    NodeJS is the last element of the MERN stack. It is a JS runtime environment, allowing JavaScript code to be executed outside of a browser.
 Front end using React.js
 React.js, a declarative JavaScript framework for building dynamic client-side apps in HTML, makes up the top tier of the MERN stack. React enables you to link simple components to data on your back-end server, connect complicated interfaces to those connections, and render those interfaces as HTML.
