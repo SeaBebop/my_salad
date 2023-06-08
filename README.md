@@ -9,7 +9,7 @@
 
 
 
-On this site, the mirn stack technology was used . the site is selling salads and consists of three types: protein salad, vegetable salad , and fruit salad
+On this site, the MERN stack technology was used . the site is selling salads and consists of three types: protein salad, vegetable salad , and fruit salad
 
 
 The MERN stack (MongoDB Express Angular Node) is one of many variants where React.js is used in place of the conventional Angular.js front-end framework. MEVN (MongoDB, Express, Vue, Node) is another variation, although essentially any front-end JavaScript framework will do.
