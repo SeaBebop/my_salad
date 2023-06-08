@@ -36,3 +36,9 @@ MongoDB can help with this because it allows JSON documents created in your Reac
 
 How does the MERN stack work?
 ![image](https://github.com/FaisalAldarees/my_salad/assets/50848447/fc6fd615-e4ff-4227-875e-cfb4c43a1fca)
+
+
+ER Digram:
+
+![image](https://github.com/FaisalAldarees/my_salad/assets/50848447/f9fe724a-1edc-48d8-a10c-7a7c40a3b4dc)
+
