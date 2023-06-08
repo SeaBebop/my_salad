@@ -35,4 +35,4 @@ MongoDB can help with this because it allows JSON documents created in your Reac
 
 
 How does the MERN stack work?
-![Uploading image.png…]()
+![image](https://github.com/FaisalAldarees/my_salad/assets/50848447/fc6fd615-e4ff-4227-875e-cfb4c43a1fca)
