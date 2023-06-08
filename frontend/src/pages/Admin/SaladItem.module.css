@@ -1,0 +1,26 @@
+.salad {
+  display: flex;
+  padding: 1rem;
+  height: 16rem;
+  width: 100%;
+  gap: 5px;
+  border-bottom: solid 1px var(--font-main-color-light);
+}
+
+.info {
+  width: 100%;
+  margin-left: 10px;
+}
+
+.saladImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  aspect-ratio: 1/1;
+}
+
+.saladImg img {
+  height: 100%;
+  border-radius: 15px;
+}

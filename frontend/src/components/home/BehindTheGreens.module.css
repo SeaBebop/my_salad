@@ -1,0 +1,16 @@
+.BTG {
+  background-color: var(--main-color);
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.BTG p {
+  font-size: 2.4rem;
+  text-align: justify;
+}
+
+.BTGMySalad {
+  font-family: 'Pacifico';
+  color: var(--orange);
+}

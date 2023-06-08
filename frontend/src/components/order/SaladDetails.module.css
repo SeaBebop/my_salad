@@ -1,0 +1,47 @@
+.SaladDetails {
+  padding: 3rem;
+  display: flex;
+  height: 70rem;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5rem;
+}
+
+.OrangeLinkBtn {
+  margin-left: 3rem;
+  font-size: 3rem;
+}
+
+.flexItem {
+  flex: 1 1 100%;
+}
+
+.imgCont {
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.imgCont img {
+  width: 100%;
+}
+
+.infoCont {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoCont h1 {
+  font-size: 5rem;
+}
+
+.infoCont h2 {
+  margin-bottom: 4rem;
+}
+
+.infoCont p {
+  margin-bottom: 2rem;
+}

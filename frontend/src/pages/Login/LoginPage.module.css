@@ -1,0 +1,54 @@
+.LoginPage {
+  height: 100vh;
+  background: url('../../../public/assets/images/kitchen-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: fit-content;
+}
+
+.LogRegTrigger {
+  width: 80%;
+  background-color: var(--orange);
+  font-size: 2.2rem;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.LogRegTrigger button {
+  flex: 1;
+  padding: 1rem;
+  background: unset;
+  color: unset;
+  font-family: unset;
+  outline: none;
+  font-size: inherit;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+.LogRegTrigger button:focus {
+  background-color: var(--dark-orange);
+}
+
+.LogRegTrigger button:hover {
+  background-color: var(--dark-orange);
+}
+
+.activeButton {
+  background-color: var(--dark-orange) !important ;
+}

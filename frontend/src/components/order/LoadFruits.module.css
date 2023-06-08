@@ -1,0 +1,7 @@
+.CardWrapper {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-gap: 5rem 4rem;
+  width: 100%;
+  background-color: #f7f7f7 !important;
+}
