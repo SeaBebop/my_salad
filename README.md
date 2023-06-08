@@ -35,7 +35,7 @@ database tier for MongoDB
 
 You'll need a database that's just as simple to use as React, Express, and Node if your application stores any data (user profiles, content, comments, uploads, events, etc.).
 
-MongoDB can help with this because it allows JSON documents created in your React.js front end to be sent to the Express.js server for processing and, if they're valid, direct storage in MongoDB for later retrieval. Once more, if you're building in the cloud, you should consider Atlas,and change the MONGO_URL in the .end file and put the URL in Atlas.
+MongoDB can help with this because it allows JSON documents created in your React.js front end to be sent to the Express.js server for processing and, if they're valid, direct storage in MongoDB for later retrieval. Once more, if you're building in the cloud, you should consider Atlas ,and change the MONGO_URL in the .env file and put the URL provaided by Atlas.
 
 
 How does the MERN stack work?
