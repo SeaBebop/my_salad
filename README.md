@@ -24,6 +24,7 @@ The MERN stack consists of four parts. Let's talk about each of them individuall
 •    ReactJS, a JavaScript toolkit for creating UIs based on UI components, is the third component. 
 
 •    NodeJS is the last element of the MERN stack. It is a JS runtime environment, allowing JavaScript code to be executed outside of a browser.
+
 Front end using React.js
 React.js, a declarative JavaScript framework for building dynamic client-side apps in HTML, makes up the top tier of the MERN stack. React enables you to link simple components to data on your back-end server, connect complicated interfaces to those connections, and render those interfaces as HTML.
 React excels at handling stateful, data-driven interfaces with little effort and code, and it includes all the features you'd expect from a contemporary web framework, including excellent support for forms, error handling, events, lists, and more.
