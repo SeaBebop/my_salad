@@ -12,7 +12,7 @@
 On this site, the MERN stack technology was used . the site is selling salads and consists of three types: protein salad, vegetable salad , and fruit salad
 
 
-The MERN stack (MongoDB Express Angular Node) is one of many variants where React.js is used in place of the conventional Angular.js front-end framework. MEVN (MongoDB, Express, Vue, Node) is another variation, although essentially any front-end JavaScript framework will do.
+The MERN stack (MongoDB Express React Node) is one of many variants where React.js is used in place of the conventional ReactJS front-end framework. MEVN (MongoDB, Express, Vue, Node) is another variation, although essentially any front-end JavaScript framework will do.
 
 Are you prepared to move forward? Create a free Atlas account by clicking the link below, then use our MERN Stack Tutorial to quickly build a full-stack MERN application.
 The MERN stack consists of four parts. Let's talk about each of them individually. 
