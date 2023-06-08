@@ -1,0 +1,40 @@
+.saladList {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.saladListCont {
+  width: 100%;
+  height: 60rem;
+  overflow: scroll;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.saladForms {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.saladForms > * {
+  width: 40rem;
+}
+
+.saladForms select {
+  font-family: cursive;
+  height: 3rem;
+  font-size: 1.8rem;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 1px var(--orange);
+}
+
+.saladForms select:focus {
+  outline: none !important;
+  box-shadow: inset 0 0 0 2px var(--dark-orange);
+}

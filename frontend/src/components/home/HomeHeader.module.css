@@ -1,0 +1,47 @@
+.header {
+  height: 80rem;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('../../../public/assets/images/home-header-bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% cover;
+  background-position: center;
+  box-shadow: inset 0px 0px 10px 2px #0000003a;
+}
+
+.orderNow {
+  overflow: hidden;
+  border-radius: 100%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.orderNow:hover {
+  transform: scale(1.08);
+}
+
+.circle {
+  position: absolute;
+  font-family: 'Pangolin';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  height: 25rem;
+  width: 25rem;
+  border-radius: 100%;
+  background-color: var(--orange);
+}
+
+.circleOne {
+  top: 11%;
+  left: 12%;
+}
+
+.circleTwo {
+  bottom: 14%;
+  right: 12%;
+}

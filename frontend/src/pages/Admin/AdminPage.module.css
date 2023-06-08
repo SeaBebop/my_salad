@@ -1,0 +1,44 @@
+.AdminPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.UserSaladTrigger {
+  width: 80%;
+  background-color: var(--orange);
+  font-size: 2.2rem;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.UserSaladTrigger button {
+  flex: 1;
+  padding: 1rem;
+  background: unset;
+  color: unset;
+  font-family: unset;
+  outline: none;
+  font-size: inherit;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+.UserSaladTrigger button:focus {
+  background-color: var(--dark-orange);
+}
+
+.UserSaladTrigger button:hover {
+  background-color: var(--dark-orange);
+}
+
+.activeButton {
+  background-color: var(--dark-orange) !important ;
+}

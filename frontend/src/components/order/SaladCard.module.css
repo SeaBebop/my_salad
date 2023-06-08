@@ -1,0 +1,60 @@
+.CardWrapper {
+  width: 100%;
+  min-height: fit-content;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.imgCont {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 30rem;
+  overflow: hidden;
+}
+
+.imgCont img {
+  width: 100%;
+}
+
+.infoCont {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: fit-content(100%) 1fr fit-content(100%);
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+.infoCont a {
+  color: var(--font-main-color);
+  font-size: 2.6rem;
+}
+
+.infoCont a:hover,
+.infoCont a:focus,
+.infoCont a:visited,
+.infoCont a:link {
+  text-decoration: none;
+}
+
+.infoCont p {
+  align-self: self-end;
+}
+
+.infoCont h3 {
+  margin-top: 5px;
+}
+
+.OrangeButton {
+  height: 3rem;
+  font-size: 1.8rem;
+  padding: 0 1rem;
+  align-self: flex-end;
+  justify-self: flex-end;
+}

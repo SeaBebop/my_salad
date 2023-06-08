@@ -1,0 +1,30 @@
+.galleryCard {
+  height: 34rem;
+  width: 100%;
+  overflow: hidden;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: justify;
+  font-family: cursive;
+  transition: background-size 0.4s;
+}
+
+.cardInfo {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 2rem;
+  background-color: #00000060;
+  transition: opacity 0.4s;
+}
+
+.cardInfo:hover {
+  opacity: 1;
+  backdrop-filter: blur(2px);
+}

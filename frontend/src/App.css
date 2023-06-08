@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  max-width: 144rem;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row-tb-margin {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}

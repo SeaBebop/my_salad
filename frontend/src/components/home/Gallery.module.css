@@ -1,0 +1,10 @@
+.GalleryGrid {
+  display: grid;
+  width: 100%;
+  margin-top: 3rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+  box-shadow: inset 0px 0px 10px 2px #0000003a;
+}

@@ -1,0 +1,17 @@
+.headingCont {
+  max-width: 144rem;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5.6rem;
+  gap: 6rem;
+}
+
+.headingCont section {
+  height: 1px;
+  flex-grow: 1;
+  border: solid 2px var(--font-main-color-light);
+  border-radius: 5px;
+}
