@@ -36,17 +36,18 @@ MongoDB can help with this because it allows JSON documents created in your Reac
 
 
 How does the MERN stack work?
-![image](https://github.com/FaisalAldarees/my_salad/assets/50848447/fc6fd615-e4ff-4227-875e-cfb4c43a1fca)
+![MERN](https://github.com/sultankhaled9/my_salad/assets/50848447/241f5578-d5ae-4146-b65b-5ea4195f4d57)
 
 
 ER Digram:
 
-![image](https://github.com/FaisalAldarees/my_salad/assets/50848447/f9fe724a-1edc-48d8-a10c-7a7c40a3b4dc)
+![image](https://github.com/sultankhaled9/my_salad/assets/50848447/2aa16cf0-4bc7-48c2-8688-addd397749ea)
+
 
 
 
 
 Flowchart :
-<img width="2345" alt="Flow-Diagram" src="https://github.com/FaisalAldarees/my_salad/assets/50848447/87ade718-9035-41ab-862c-d9f3e636fe47">
 
+<img width="2345" alt="Flow-Diagram" src="https://github.com/sultankhaled9/my_salad/assets/50848447/333d1d85-e02a-413c-b41e-d1c85da3efeb">
 
