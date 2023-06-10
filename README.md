@@ -1,17 +1,25 @@
 # my_salad project
 
+## Contribution
+This project is developed by Imam Muhammed ibn Saud university students. <br>
+**Students:** <br>
+1- [Abdulrahman AlGhofaily.](https://www.linkedin.com/in/abdulrahman-alghofaily/) <br>
+2- [Faisal AlDrees.](https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAACZCWLEBXCkGkOlarScG2zP9fw7Oi6WBx64&keywords=faisal%20aldrees&origin=RICH_QUERY_SUGGESTION&position=2&searchId=37b2b037-9de9-4654-9600-b8e0d2080eaa) <br>
+3- [Sultan AlMansour.](https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAADxQquQBrGWOazmeCWDbOSpvOHl7C-_WiQg&keywords=sultan%20almansour&origin=RICH_QUERY_SUGGESTION&position=1&searchId=50084e9f-5f10-467c-aa29-9dcf3101badc&sid=3%3Ar) <br>
+Supervised by: [Dr.Fahman Saeed](https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAASAPIABcLLefA70kmy6zRi9ezwaoOVhjxU&keywords=fahman%20saeed&origin=RICH_QUERY_SUGGESTION&position=1&searchId=fcdeda02-1ba8-47ef-aca1-3ee2ddecd945&sid=ngw) <br>
 
-
-
-
-
-
-
-
+## Setup
+It is easy and straight forward to get this website to work in a working environment. <br>
+After downloading the code, in the main folder do `cd backend` to enter the backend folder. <br>
+Open a new terminal then do the same but now for the frontend `cd frontend` to enter the frontend folder<br>
+now run the next commands for the terminal in the backend folder `npm i` to download the node_modules and `npm run start`, you should get a message in the terminal says something like back-end is running. <br>
+now for the frontend it is the same `npm i` to download the node_modules and `npm run start`, that should starts the React app.<br>
+Make sure MongoDB is running in the background. And make sure to edit the .env file to add the right port for the express app. <br>
+There might be some bugs here or there, we are trying our best to remove it. <br>
 
 On this site, the MERN stack technology was used . the site is selling salads and consists of three types: protein salad, vegetable salad , and fruit salad
 
-
+## More about the project.
 What is MERN stack?
 
 •    MongoDB, a NoSQL database management system, is the first element. 
@@ -50,4 +58,3 @@ ER Digram:
 Flowchart :
 
 <img width="2345" alt="Flow-Diagram" src="https://github.com/sultankhaled9/my_salad/assets/50848447/333d1d85-e02a-413c-b41e-d1c85da3efeb">
-
