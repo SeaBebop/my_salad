@@ -15,7 +15,7 @@ const saladSchema = new mongoose.Schema({
         required: true,
     },
     image: {
-        type: String, // Assuming the image will be represented by a URL or file path
+        type: String, 
         required: true,
     },
     category: {

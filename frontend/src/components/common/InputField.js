@@ -4,7 +4,7 @@ import classes from './InputField.module.css';
 const InputField = (props) => {
   return (
     <input
-      className={classes.inputField}
+      className={`${classes.inputField} ${props.className}`}
       id={props.id}
       name={props.name}
       type={props.type}
@@ -14,6 +14,7 @@ const InputField = (props) => {
       required={props.required}
       min={props.min}
       accept={props.accept}
+      isvalid={props.isValid}
     />
   );
 };

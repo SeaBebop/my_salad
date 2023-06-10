@@ -28,10 +28,16 @@
 
 .cardInfo {
   display: flex;
+  gap: 3rem;
 }
 
 .cardInfo input {
   width: 20rem !important;
+}
+
+.cardInfoItem {
+  display: flex;
+  flex-direction: column;
 }
 
 .infoCont {
@@ -53,5 +59,6 @@
 
 .form {
   display: flex;
+  flex-direction: column;
   gap: 1rem !important;
 }
