@@ -1,13 +1,13 @@
 # my_salad project
 
-
-
-
-
-
-
-
-
+## Setup
+It is easy and straight forward to get this website to work in a working environment. <br>
+After downloading the code, in the main folder do `cd backend` to enter the backend folder. <br>
+Open a new terminal then do the same but now for the frontend `cd frontend` to enter the frontend folder<br>
+now run the next commands for the terminal in the backend folder `npm i` to download the node_modules and `npm run start`, you should get a message in the terminal says something like back-end is running. <br>
+now for the frontend it is the same `npm i` to download the node_modules and `npm run start`, that should starts the React app.<br>
+Make sure MongoDB is running in the background. And make sure to edit the .env file to add the right port for the express app. <br>
+There might be some bugs here or there, we are trying our best to remove it. <br>
 
 On this site, the MERN stack technology was used . the site is selling salads and consists of three types: protein salad, vegetable salad , and fruit salad
 
