@@ -1,0 +1,319 @@
+[{
+  "_id": {
+    "$oid": "64808376bfc03612470db305"
+  },
+  "name": "Asian Fusion Crunch",
+  "description": "A vibrant salad with an Asian twist, combining crunchy vegetables, sesame seeds, and a zesty ginger-soy dressing. # Napa cabbage, carrots, red bell peppers, snow peas, scallions, sesame seeds.",
+  "price": 9.99,
+  "image": "image-1686143862917-507318853.png",
+  "category": "vegetable",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648086b7c948b828f8e2b9f8"
+  },
+  "name": "Avocado Kale Power",
+  "description": "A nutritious powerhouse salad combining nutrient-rich kale, creamy avocado, and protein-packed chickpeas, dressed with a lemon-garlic vinaigrette. # Kale, avocado, chickpeas, cherry tomatoes, red onions, lemon-garlic vinaigrette.",
+  "price": 11.99,
+  "image": "image-1686144695692-455856752.png",
+  "category": "vegetable",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64808719c948b828f8e2b9fa"
+  },
+  "name": "Caesar's Garden",
+  "description": "A classic Caesar salad elevated with a garden-fresh twist, combining crisp romaine lettuce, cherry tomatoes, and homemade croutons. # Romaine lettuce, cherry tomatoes, Parmesan cheese, croutons. ",
+  "price": 8.99,
+  "image": "image-1686144793821-473084203.png",
+  "category": "vegetable",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648087a8c948b828f8e2b9fc"
+  },
+  "name": "Crunchy Broccoli Supreme",
+  "description": "A satisfying salad featuring crisp broccoli florets, toasted almonds, and a creamy tahini dressing. # Broccoli florets, almonds, raisins, red onions, tahini dressing.",
+  "price": 9.99,
+  "image": "image-1686144936853-817428930.png",
+  "category": "vegetable",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648087f1c948b828f8e2b9fe"
+  },
+  "name": "Garden Fresh Delight",
+  "description": "A refreshing salad packed with a variety of garden-fresh vegetables, tossed in a light vinaigrette dressing. # Lettuce, tomatoes, cucumbers, bell peppers, carrots. ",
+  "price": 8.99,
+  "image": "image-1686145009980-272245041.png",
+  "category": "vegetable",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6480882ac948b828f8e2ba00"
+  },
+  "name": "Grilled Veggie Delight",
+  "description": "A smoky and savory salad featuring an assortment of grilled vegetables, paired with a tangy balsamic glaze. # Grilled zucchini, grilled eggplant, grilled bell peppers, red onions, mixed",
+  "price": 10.99,
+  "image": "image-1686145066686-333173961.png",
+  "category": "vegetable",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64808871c948b828f8e2ba02"
+  },
+  "name": "Mediterranean Bliss",
+  "description": "An enticing blend of Mediterranean flavors, featuring crisp vegetables and tangy feta cheese, drizzled with a lemon-herb dressing. # Romaine lettuce, cherry tomatoes, cucumbers, red onions, kalamata olives, feta cheese.",
+  "price": 10.99,
+  "image": "image-1686145137336-169755248.png",
+  "category": "vegetable",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648088b7c948b828f8e2ba04"
+  },
+  "name": "Rainbow Slaw",
+  "description": "A vibrant slaw bursting with colors and flavors, featuring shredded cabbage, carrots, and a tangy citrus dressing. # Shredded cabbage, carrots, bell peppers, red onions, cilantro.",
+  "price": 9.99,
+  "image": "image-1686145207440-516643641.png",
+  "category": "vegetable",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64808914c948b828f8e2ba06"
+  },
+  "name": "Southwest Fiesta",
+  "description": "A fiesta of flavors in every bite, with a mix of vibrant vegetables, black beans, corn, and a spicy chipotle dressing. # A fiesta of flavors in every bite, with a mix of vibrant vegetables, black beans, corn, and a spicy chipotle dressing.",
+  "price": 9.99,
+  "image": "image-1686145300734-138541883.png",
+  "category": "vegetable",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6480894bc948b828f8e2ba08"
+  },
+  "name": "Roasted Beet Bliss",
+  "description": "A colorful salad featuring roasted beets, creamy goat cheese, and toasted walnuts, drizzled with a balsamic glaze. # Roasted beets, mixed greens, goat cheese, walnuts.",
+  "price": 11.99,
+  "image": "image-1686145355968-475714311.png",
+  "category": "vegetable",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64808998c948b828f8e2ba0a"
+  },
+  "name": "Tuscan Harvest",
+  "description": "An Italian-inspired salad showcasing sun-dried tomatoes, artichoke hearts, and tangy Kalamata olives, tossed with baby spinach. # Baby spinach, sun-dried tomatoes, artichoke hearts, Kalamata olives, feta cheese.",
+  "price": 10.99,
+  "image": "image-1686145432356-315547114.png",
+  "category": "vegetable",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648199694d5a74498448fe75"
+  },
+  "name": "Berry Blast",
+  "description": "Experience a burst of berry goodness with this vibrant fruit salad that combines strawberries, blueberries, raspberries, and blackberries. # Strawberries, blueberries, raspberries, blackberries.",
+  "price": 8.99,
+  "image": "image-1686215017219-470072475.png",
+  "category": "fruit",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648199f94d5a74498448fe77"
+  },
+  "name": "Citrus Burst",
+  "description": "Savor the tangy sweetness of citrus fruits in this invigorating salad, featuring segments of oranges, grapefruits, and mandarins. # Orange segments, grapefruit segments, mandarin segments.",
+  "price": 7.99,
+  "image": "image-1686215161197-621514045.png",
+  "category": "fruit",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64819b634d5a74498448fe79"
+  },
+  "name": "Melon Medley",
+  "description": "Refresh your palate with this cool and juicy melon salad, showcasing a mix of watermelon, cantaloupe, and honeydew. # Watermelon cubes, cantaloupe cubes, honeydew cubes.",
+  "price": 8.99,
+  "image": "image-1686215523657-174190974.png",
+  "category": "fruit",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64819c2c4d5a74498448fe7d"
+  },
+  "name": "Exotic Fruit Fusion",
+  "description": "Embark on a flavorful journey with this exotic fruit salad that combines the unique tastes of dragon fruit, star fruit, and passion fruit. # Dragon fruit slices, star fruit slices, passion fruit pulp.",
+  "price": 10.99,
+  "image": "image-1686215724925-270750638.png",
+  "category": "fruit",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64819fe74d5a74498448fe81"
+  },
+  "name": "Tropical Citrus Salsa",
+  "description": "A zesty and refreshing fruit salad with a twist, featuring a blend of tropical fruits, citrus zest, and a hint of mint. # Pineapple chunks, mango chunks, orange segments, lime zest, fresh mint leaves.",
+  "price": 9.99,
+  "image": "image-1686216679342-190070075.png",
+  "category": "fruit",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6481a2304d5a74498448fe8d"
+  },
+  "name": "Summer Berry Delight",
+  "description": "Celebrate the flavors of summer with this luscious fruit salad, brimming with strawberries, blueberries, and juicy peaches. # Strawberries, blueberries, peaches (sliced).",
+  "price": 8.99,
+  "image": "image-1686217264846-195363078.png",
+  "category": "fruit",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6481a2cc4d5a74498448fe93"
+  },
+  "name": "Creamy Fruit Parfait",
+  "description": "Indulge in layers of creamy goodness with this delectable fruit parfait, featuring a mix of yogurt, berries, and granola. # Greek yogurt, mixed berries, granola.",
+  "price": 9.99,
+  "image": "image-1686217420978-702840172.png",
+  "category": "fruit",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6481a3914d5a74498448fe97"
+  },
+  "name": "Pomegranate Mixture",
+  "description": "Experience the delightful crunch of pomegranate seeds in this refreshing salad, complemented by sweet oranges and crisp apples. # Pomegranate seeds, orange segments, apple slices.",
+  "price": 8.99,
+  "image": "image-1686217617531-46396558.png",
+  "category": "fruit",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6481a4144d5a74498448fe9b"
+  },
+  "name": "Kiwi Lime Refresher",
+  "description": "Delight in the vibrant flavors of this tangy and invigorating fruit salad, combining zesty kiwi, refreshing lime, and a touch of honey. # Kiwi slices, lime segments, honey drizzle.",
+  "price": 7.99,
+  "image": "image-1686217748905-585673234.png",
+  "category": "fruit",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6481a4924d5a74498448fe9d"
+  },
+  "name": "Mixed Tropical Breeze",
+  "description": "Transport yourself to a tropical paradise with this fruit salad featuring a medley of mango, papaya, and banana, finished with a squeeze of lime. # Mango chunks, papaya chunks, banana slices, lime juice.",
+  "price": 9.99,
+  "image": "image-1686217874111-971743155.png",
+  "category": "fruit",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6481a5274d5a74498448fe9f"
+  },
+  "name": "Grape and Apple Crunch",
+  "description": "Enjoy the crisp and juicy combination of grapes and apples in this refreshing fruit salad, sprinkled with a touch of cinnamon. # Red grapes, green grapes, apple cubes, cinnamon sprinkle.",
+  "price": 8.99,
+  "image": "image-1686218023606-111829095.png",
+  "category": "fruit",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6481a5854d5a74498448fea1"
+  },
+  "name": "Berry Mint Mojito",
+  "description": "Refresh your senses with this vibrant fruit salad inspired by the classic mojito, featuring a mix of berries, fresh mint, and a squeeze of lime. # Strawberries, blueberries, raspberries, fresh mint leaves, lime juice.",
+  "price": 9.99,
+  "image": "image-1686218117643-895928980.png",
+  "category": "fruit",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6481a5e44d5a74498448fea3"
+  },
+  "name": "Mango Peach Paradise",
+  "description": "Delight in the sweet and juicy combination of mangoes and peaches in this tropical fruit salad that will transport you to paradise. # Mango slices, peach slices.",
+  "price": 8.99,
+  "image": "image-1686218212824-611144590.png",
+  "category": "fruit",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6481a6994d5a74498448fea5"
+  },
+  "name": "Tangy Citrus Splash",
+  "description": "Quench your thirst with this tangy and refreshing citrus fruit salad, featuring a combination of oranges, grapefruits, and lemons. # Orange segments, grapefruit segments, lemon slices.",
+  "price": 7.99,
+  "image": "image-1686218393139-971349776.png",
+  "category": "fruit",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6481a6d04d5a74498448fea7"
+  },
+  "name": "Summer Fruit Fiesta",
+  "description": "Celebrate the flavors of summer with this festive fruit salad, featuring a mix of watermelon, strawberries, and juicy pineapple. # Watermelon cubes, strawberries, pineapple chunks.",
+  "price": 8.99,
+  "image": "image-1686218448042-184527671.png",
+  "category": "fruit",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6481a7414d5a74498448fea9"
+  },
+  "name": "Tropical Mango Coconut",
+  "description": "Immerse yourself in a tropical paradise with this fruit salad that combines succulent mangoes with the creamy richness of coconut. # Mango slices, shredded coconut.",
+  "price": 9.99,
+  "image": "image-1686218561381-114199494.png",
+  "category": "fruit",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6481a79b4d5a74498448feab"
+  },
+  "name": "Apple Walnut Bliss",
+  "description": "Enjoy the perfect balance of sweet and crunchy with this fruit salad, pairing crisp apple slices with toasted walnuts and a drizzle of honey. # Apple slices, walnuts, honey drizzle.",
+  "price": 8.99,
+  "image": "image-1686218651469-146637451.png",
+  "category": "fruit",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6481e6e33f850d0770a273fd"
+  },
+  "name": "Testiing Salad",
+  "description": "This is a testing salad",
+  "price": 10,
+  "image": "image-1686234851676-578694647.png",
+  "category": "vegetable",
+  "__v": 0
+}]
