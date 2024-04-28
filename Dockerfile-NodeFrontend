@@ -1,0 +1,7 @@
+FROM node:20-bullseye as build
+ARG REACT_APP_BACKEND
+ARG REACT_APP_FRONTEND
+WORKDIR /app
+COPY ./frontend .
+CMD npm i 
+CMD npm run start

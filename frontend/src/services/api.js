@@ -1,8 +1,8 @@
-const BASE_URL = 'http://localhost:8080';
+const BASE_URL = process.env.REACT_APP_BACKEND;
 
 async function request(endpoint, method = 'GET', data = null, token, cType = 'application/json', params) {
   const url = new URL(`${BASE_URL}/${endpoint}`);
-
+  console.log(BASE_URL)
   let options;
 
   if (method === 'GET') {
@@ -57,4 +57,4 @@ export const api = {
   del: (endpoint) => request(endpoint, 'DELETE'),
 };
 
-export const API_BASE_URL = 'http://localhost:8080/api';
+export const API_BASE_URL = BASE_URL + '/api';

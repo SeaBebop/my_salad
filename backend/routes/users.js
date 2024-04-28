@@ -1,5 +1,20 @@
 const router = require("express").Router();
-const User = require("../models/user");
+const path = require('path');
+
+try {
+    // Get the current directory
+    const currentDirectory = path.resolve(__dirname);
+    console.log('Current directory:', currentDirectory);
+  
+    // Try to require the module
+    const User = require('../models/user');
+    // Use the User module if it's successfully loaded
+    console.log('User module loaded successfully.');
+  } catch (error) {
+    const currentDirectory = path.basename(path.dirname(__dirname));
+    console.log('Current directory:', currentDirectory);
+    console.error('Error loading module:', error.message);
+  }
 const jwt = require('jsonwebtoken');
 const dotenv = require("dotenv");
 const {verifyToken, verifyTokenAuth, verifyTokenAndAdmin} = require('./verifyToken')

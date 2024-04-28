@@ -1,0 +1,14 @@
+FROM node:20-bullseye as build
+
+# Set the working directory inside the container
+ARG MONGO_URL
+ARG PORT
+ARG JWT_SECRET
+ARG REACT_APP_BACKEND
+ARG REACT_APP_FRONTEND
+WORKDIR /app
+# Copy the backend source code into the container
+COPY ./backend .
+COPY ./database-data .
+CMD npm i 
+CMD npm run start

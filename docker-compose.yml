@@ -1,0 +1,35 @@
+version: "3.9"
+services:
+  frontend:
+    build:
+      dockerfile: Dockerfile-NodeFrontend
+    environment:
+        - REACT_APP_BACKEND=http://localhost:8080
+        - REACT_APP_FRONTEND=http://localhost:3000
+    ports:
+    - "3000:3000"
+
+  backend:
+    build:
+      dockerfile: Dockerfile-NodeBackend
+    environment:
+        - MONGO_URL=mongodb://mongo:27017/salad
+        - PORT=8080
+        - JWT_SECRET=my_salad
+        - REACT_APP_BACKEND=http://localhost:8080
+        - REACT_APP_FRONTEND=http://localhost:3000
+    depends_on:
+      - mongo
+    ports:
+    - "8080:8080"
+  mongo:
+    image: mongo:latest
+    ports:
+    - "27017:27017"
+    environment:
+      - MONGODB_URL=mongodb://mongo:27017/salad
+
+
+
+
+

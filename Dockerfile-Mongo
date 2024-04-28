@@ -1,0 +1,9 @@
+FROM mongo:latest
+EXPOSE 27017
+
+COPY . .
+# Command to start MongoDB
+CMD ["mongod"]
+CMD mongosh
+CMD use salid
+CMD mongoimport --db salad --collection salad --file database-data/my_salad.salads.json --jsonArray
