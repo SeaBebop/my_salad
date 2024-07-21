@@ -4,11 +4,13 @@
 This was created by Imam Muhammed ibn Saud university students. I, Marcus Benoit, have used this freeuse project for my own practice!
 ## Additions
 - Fully Dockerize the project and deployed it on GCP cloud run(Frontend) and GCE(Mongodb and node.js backend)!
-
+- Backend server currently down!
 ![image](https://github.com/user-attachments/assets/577efa23-7bc9-49d9-8bc1-50ae78377b81)
 
 ![image](https://github.com/user-attachments/assets/1642a2e5-6dd5-4f61-96a4-6190d5a1bab2)
 
+## Docker Set Up
+- To Be continued 
 ## Contribution
 This project is developed by Imam Muhammed ibn Saud university students. <br>
 
